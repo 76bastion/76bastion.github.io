@@ -1,0 +1,169 @@
+.header-up
+{  background: #0f7b3e;
+  background: linear-gradient(to bottom, #0f7b3e, #152f18);
+  color: #fff;
+  font-size: 150%;
+  padding: 10px 45px;
+  height: 60px;
+}
+@media screen and (min-width:640px) and (max-width:1024px) {
+  .header-up
+  {
+    font-size: 100%;
+    padding: 8px 20px;
+    height: 45px;
+  }
+  .header-up-right img
+  {
+    width: 20px;
+  }
+}
+@media screen and (max-width:639px) {  .header-up
+  {    font-size: 90%;
+    padding: 8px 20px;
+  }
+  .header-up-right
+  {    text-align: left;
+  }
+  .header-up-right img
+  {    width: 20px;
+  }
+}
+
+.header-middle
+{  /*height: 403px;*/
+  background-image: url('../img/header-bg.png');
+  background-repeat: no-repeat;
+}
+.header-middle-logo
+{  /*height: 403px;*/
+  padding-left: 0px;
+  /*background-image: url('../img/logo.png');
+  background-repeat: no-repeat;*/
+
+  /*min-width: 400px;*/
+}
+.header-middle-flag
+{
+
+  /*height: 403px;*/
+  /*
+  background-image: url('../img/flag.png');
+  background-repeat: no-repeat;*/
+  /*min-width: 205px;*/
+
+}
+@media screen and (max-width: 639px) {  .header-middle-flag
+  {
+    display: none;
+  }
+}
+
+
+.header-middle-right
+{  background-image: url('../img/menedgeri.png');
+  background-position: bottom 0px right 19px;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+}
+
+
+
+.header-middle-right .header-middle-right-contacts
+{  /*min-width: 370px;*/
+  background-color: #e5d09d;
+  box-shadow: 0 0 25px rgba(0,0,0,0.8);
+  margin-right: 20px;
+}
+  .header-middle-right .header-middle-right-contacts div
+  {
+    font-family: Courier New, Lucida Console, Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #17351a;
+    padding: 5px 8px;
+  }
+.header-middle-right .header-middle-right-form-head
+{  margin-top: 15px;
+  margin-right: 25px;
+}
+
+.header-middle-right .header-middle-right-form-title
+{  background-color: #ff6d00;
+  text-align: center;
+  color: #fff;
+  font-family: Lucida Console, Monaco, monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+.header-middle-right .header-middle-right-form-body
+{
+  margin-right: 25px;
+}
+.header-middle-right .header-middle-right-form-body .header-middle-right-form-inputs
+{  background-color: #fff;
+  padding-top: 20px;
+}
+.header-middle-right .header-middle-right-form-body .header-middle-right-form-inputs input
+{  margin-bottom: 10px;
+  height: 25px;
+  border: 1px inset #eeeeee;
+  border-radius: 7px;
+  background-color: #d4d4d4;
+  font-size: 12px;
+  color: #707070;
+}
+.header-middle-right .header-middle-right-form-body .header-middle-right-form-inputs input::-webkit-input-placeholder {color: #707070;}
+.header-middle-right .header-middle-right-form-body .header-middle-right-form-inputs input::-moz-placeholder          {color: #707070;}/* Firefox 19+ */
+.header-middle-right .header-middle-right-form-body .header-middle-right-form-inputs input:-moz-placeholder           {color: #707070;}/* Firefox 18- */
+.header-middle-right .header-middle-right-form-body .header-middle-right-form-inputs input:-ms-input-placeholder      {color: #707070;}
+
+
+.header-middle-right .header-middle-right-form-message
+{
+
+  margin-right: 25px;
+
+}
+.header-middle-right .header-middle-right-form-message .header-middle-right-form-textarea
+{  font-size: 12px;
+  line-height: 90%;
+}
+
+
+
+.header-middle-right .header-middle-right-form-message .header-middle-right-form-textarea textarea
+{
+
+  margin-bottom: 10px;
+  height: 75px;
+  border: 1px inset #eeeeee;
+  border-radius: 7px;
+  background-color: #d4d4d4;
+  font-size: 12px;
+  color: #707070;
+  overflow: hidden;
+}
+.header-middle-right .header-middle-right-form-message .header-middle-right-form-textarea textarea::-webkit-input-placeholder {color: #707070;}
+.header-middle-right .header-middle-right-form-message .header-middle-right-form-textarea textarea::-moz-placeholder          {color: #707070;}/* Firefox 19+ */
+.header-middle-right .header-middle-right-form-message .header-middle-right-form-textarea textarea:-moz-placeholder           {color: #707070;}/* Firefox 18- */
+.header-middle-right .header-middle-right-form-message .header-middle-right-form-textarea textarea:-ms-input-placeholder      {color: #707070;}
+
+a.button24 {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 25px;
+  padding: 0px 10px;
+  outline: none;
+  border-width: 2px;
+  border-style: solid none;
+  border-color: #b86f0d #fe841b #e17531;
+  border-radius: 6px;
+  background: linear-gradient(to bottom, #fe8905, #fd6208);
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+a.button24:hover { background: linear-gradient(to bottom, #fe7404, #e65a09); }
+a.button24:active { background: linear-gradient(to bottom, #fe7404, #e65a09); }
